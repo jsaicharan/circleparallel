@@ -8,8 +8,6 @@ workflows:
       - cypress/run:
           requires:
             - cypress/install  
-          environment:
-            CYPRESS_RECORD_KEY: a21fd9fc-03c3-451d-997c-fabca1325e01
           record: true 
           parallel: true
           parallelism: 4
