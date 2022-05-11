@@ -19,4 +19,7 @@
 module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
+  config.defaultCommandTimeout = 10000
+  config.env.CYPRESS_RECORD_KEY = 'a21fd9fc-03c3-451d-997c-fabca1325e01'
+  return config
 }
