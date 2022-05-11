@@ -11,4 +11,4 @@ workflows:
           record: true 
           parallel: true
           parallelism: 4
-          group: 2 machines
+          group: 4 machines
