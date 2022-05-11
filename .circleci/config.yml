@@ -7,7 +7,7 @@ workflows:
       - cypress/install
       - cypress/run:
           requires:
-            - cypress/install
+            - cypress/install 
           record: true 
           parallel: true
           parallelism: 4
